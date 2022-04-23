@@ -1,0 +1,38 @@
+body {
+    height: 1000px;
+}
+
+.container-fluid {
+    margin: 25px;
+}
+
+.navbar-default {
+    background-color: lightgrey;
+}
+
+.container-fluid .row {
+    background-color: lightgrey;
+}
+
+#nav-list > li > a {
+    text-align: center
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#nav-list {
+    margin-top: 10px;
+  }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
